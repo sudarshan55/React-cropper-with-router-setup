@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.root-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: indigo;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.nav-link:hover {
+  font-weight: 1.2rem;
+  color: white;
+}
